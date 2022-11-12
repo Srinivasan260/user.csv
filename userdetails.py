@@ -1,9 +1,13 @@
-class details:
-    firstname=str(input("enter your first name:"))
-    lastname=str(input("enter your lastname:"))
-    email=str(input("enter your email:"))
-    username=str(input("enter your username:"))
-    userid=int(input("enter your id:"))
-user=details
-a=[user.firstname,user.lastname,user.email,user.username]
-print(a)
+user={
+    "username":"srinivasan",
+    "id":1234
+     "fullname":"N.Srinivasan",
+    "email.id":"srinivascenaa@gamil",
+    "age":"21"
+}
+a=str(input("username:")
+b=int(input("userid:")
+if(b == user["id"] and a == user["username"])
+  print(user)
+else
+  print("username or id is incorrect")
